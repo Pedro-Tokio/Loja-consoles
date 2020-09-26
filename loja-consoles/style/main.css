@@ -4,7 +4,7 @@
     overflow: hidden;
     }
   
-.topnav a 
+.top_navegation a
     {
     float: left;
     color: #f2f2f2;
@@ -12,9 +12,13 @@
     padding: 1% 1%;
     text-decoration: none;
     font-size: 17px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 60px;
     }
   
-.topnav a:hover
+.top_navegation a:hover
     {
     background-color: #ddd;
     color: black;
@@ -26,34 +30,26 @@
     color: white;
     }
 
-    #divBusca{
-        background-color:#E0EEEE;
-        border:solid 2px #5F9EA0;
-        border-radius:10px;
-        width:300px;
-        height:32px;
-      }
-      
-      #txtBusca{
-        float:left;
-        background-color:transparent;
-        padding-left:5px;
-        font-size:18px;
-        border:none;
-        height:32px;
-        width:191px;
-      }
-      
-      #btnBusca{
-        border:none;
-        float:left;
-        height:32px;
-        border-radius:0 7px 7px 0;
-        width:70px;
-        font-weight:bold;
-        background:#5F9EA0;
-      }
-      
-      #divBusca img{
-        float:left;
-      }
+.top_buy
+{
+  display: flex;
+}
+
+.toplog a
+  {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1% 1%;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    margin-right: 50px;
+  }
+
+.toplog img
+  {
+    margin-right: auto;
+    display: flex;
+  }
